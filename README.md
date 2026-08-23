@@ -29,4 +29,4 @@ Collaborated with frontend, backend, UI teams for this project along with the in
 
 ## 🔗 Links
 - [Full case study (Notion)](https://app.notion.com/p/VCIP-AI-Chatbot-RAG-AWS-Bedrock-95-Accuracy-Zero-Human-Intervention-32a9cf46b5db8049a63becc36b20ce5a?pvs=21)
-- [Back to profile](https://github.com/YOUR-USERNAME)
+- [Back to profile](https://github.com/Kavya-b26)
