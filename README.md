@@ -5,16 +5,17 @@
 ---
 
 ## 🎯 Problem
-[1–3 sentences: what was breaking in the VCIP (Video Customer Identification Process) onboarding flow before this? e.g. drop-offs from unanswered queries, agent load, response delays.]
+In VCIP Savings account onboarding journey, customer's were dropping off at multiple stages of the journey and if they had any queries, they had to contact the support team seperately. Hence, we added AI RAG chatbot in the journey to answer customer queries for a hassle free onboarding pricess.
 
 ## 🧭 My Role
-Senior Product Manager — owned the problem definition, requirements, and rollout. [Add: who else was involved — eng, data science, compliance/RBI stakeholders.]
+Senior Product Manager — owned the problem definition, requirements, and rollout. 
+Collaborated with frontend, backend, UI teams for this project along with the internal stakeholders like Application security, Data Privacy teams for successful rollouts.
 
 ## 🔍 Approach
-- **Discovery:** [How did you identify this as the right problem — user research, support ticket analysis, funnel drop-off data?]
-- **Design:** RAG (Retrieval-Augmented Generation) architecture built on **AWS Bedrock**, grounding responses in [internal KB / compliance docs / product policies — whatever's accurate].
-- **Constraints:** [RBI compliance requirements, data privacy, latency SLAs — whatever applied]
-- **Rollout:** [Pilot → phased rollout → full launch, with rough timeline if you have it]
+- **Discovery:** We conducted a customer survey along with funnel analysis to understand the basic reasons for every step in the journey. Also, the support team were not able to answer many queries and redirected most of them to our internal product teams, which actually took time of the team members to resolve the queries and even took significant time to answer the queries due to other in hand work piled up. 
+- **Design:** RAG (Retrieval-Augmented Generation) architecture built on **AWS Bedrock**, grounding responses in internal KB, journey decks, SOP.
+- **Constraints:** RBI guidelines, Data privacy of PII/SPDI, internal security guidelines.
+- **Rollout:** Pilot → phased rollout (Assisted, D2C, Existing and New customers) → Complete Launch
 
 ## 📊 Results
 | Metric | Result |
